@@ -1,0 +1,62 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button{
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  box-shadow: 1px 1px 3px #141212;
+  transition: transform .1s linear;
+}
+
+button:hover{
+  transform: scale(1.1);
+  cursor: url('./src/assets/star.png');
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.arrow{
+  width: 70px;
+}
+
+.quoteBox{
+  width: 600px;
+  background-color: antiquewhite;
+  padding: 50px;
+  box-shadow: 1px 1px 3px black;
+}
+
+.quote_Desc{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.quote_Desc p {
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgb(109, 109, 109);
+}
+
+.quote_Author{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+#quote_icon{
+  width: 45px;
+  height: 45px;
+}
