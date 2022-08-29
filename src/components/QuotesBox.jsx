@@ -36,7 +36,10 @@ const QuoteBox = () => {
         <div className="quoteBox" style={{color: `#${colors[colorIndex]}`}}>
 
             <div className='quote_Desc'>
+
             <box-icon name='quote-left' type='solid' color='rgba(181,7,7,0.91)' id="quote_icon" ></box-icon>
+
+
                 <p>{quotesList[index].quote}</p>
             </div>
 
