@@ -45,9 +45,8 @@ const QuoteBox = () => {
 
             <div className='quote_Author'>
                 <h3><em>{quotesList[index].author}</em></h3>
-                
                 <button onClick={changeValues} style={{backgroundColor: `#${colors[colorIndex]}`}}>
-                    <img src="/src/assets/right-arrow.png" alt="" />
+                <box-icon name='chevron-right' color='rgba(230,220,220,0.91)' ></box-icon>
                 </button>
             
             </div>
