@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+body{
+  font-family: 'Cinzel', serif;
+  font-size: 18px;
+  transition: background-color .2s linear;
+}
+
 button{
   border-radius: 50%;
   border: none;
