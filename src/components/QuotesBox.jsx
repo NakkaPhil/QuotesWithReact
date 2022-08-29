@@ -36,7 +36,7 @@ const QuoteBox = () => {
         <div className="quoteBox" style={{color: `#${colors[colorIndex]}`}}>
             
             <div className='quote_Desc'>
-                <img src="./src/assets/left-quote.png" id='quote_icon' />
+                <img src="/src/assets/left-quote.png" id='quote_icon' />
                 <p>{quotesList[index].quote}</p>
             </div>
 
@@ -44,7 +44,7 @@ const QuoteBox = () => {
                 <h3><em>{quotesList[index].author}</em></h3>
                 
                 <button onClick={changeValues} style={{backgroundColor: `#${colors[colorIndex]}`}}>
-                    <img src="./src/assets/right-arrow.png" alt="" />
+                    <img src="/src/assets/right-arrow.png" alt="" />
                 </button>
             
             </div>
